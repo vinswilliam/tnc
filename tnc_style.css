@@ -17,7 +17,7 @@
    it is 3.3% from device width, (12 / 360) * 100 = 3.3vw
 */
 html {
-  font-size: 3.3vw; 
+  font-size: clamp(12px, 3.3vw, 12px); 
   font-family: Trueno;
 }
 body {
