@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Trueno;
+  src: url("TruenoLt.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Trueno;
+  src: url("TruenoRg.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Trueno;
+  src: url("TruenoSbd.otf");
+  font-weight: 600;
+}
+/* default font size on device width 360 is 12px, 
+   it is 3.3% from device width, (12 / 360) * 100 = 3.3vw
+*/
+html {
+  font-size: 3.3vw; 
+  font-family: Trueno;
+}
+ol {
+  list-style-type: decimal;
+  padding-left: 1rem;
+}
+ul {
+  list-style-type: square;
+  padding-left: 1rem;
+}
+li {
+  font-weight: 300;
+  font-size: 3.3vw;
+  margin-bottom: 0.75rem;
+  padding-inline-start: 1.125rem;
+}
