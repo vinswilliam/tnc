@@ -21,7 +21,7 @@ html {
   font-family: Trueno;
 }
 body {
-  margin: 0 4.4vw 0;
+  margin: 4.4vw 4.4vw 0;
 }
 ol {
   list-style-type: decimal;
@@ -33,7 +33,7 @@ ul {
 }
 li {
   font-weight: 300;
-  font-size: 3.3vw;
+  font-size: clamp(0.75rem, 3.3vw, 1rem);
   margin-bottom: 0.75rem;
   padding-inline-start: 1.125rem;
 }
