@@ -20,9 +20,7 @@ html {
   font-size: clamp(12px, 3.3vw, 12px); 
   font-family: Trueno;
 }
-body {
-  margin: 4.4vw 4.4vw 0;
-}
+body {}
 ol {
   list-style-type: decimal;
   padding-left: 1rem;
